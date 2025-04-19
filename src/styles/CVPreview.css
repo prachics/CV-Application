@@ -1,0 +1,111 @@
+.cv-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.personal-preview {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Center the full name */
+.full-name {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+/* Style the contact section */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Space between email, separator, and phone */
+  margin-bottom: 1rem;
+}
+
+.contact .email,
+.contact .phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+  font-size: 1rem;
+}
+
+/* Style the vertical separator */
+.separator {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.education-preview,
+.employment-preview {
+  margin-top: 1rem;
+}
+
+.education-cv,
+.employment-cv {
+  margin-bottom: 1rem;
+}
+
+.education-cv hr,
+.employment-cv hr {
+  margin: 1rem 0;
+}
+
+.responsibility {
+  font-weight: bold;
+}
+
+.download-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Make sure all text in the PDF is black for better readability */
+.cv-content * {
+  color: black;
+}
+
+/* Add specific styling for headings in the CV */
+.cv-content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cv-content h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cv-content p {
+  margin-bottom: 0.5rem;
+}
+
+/* Style horizontal rules */
+.cv-content hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0.5rem 0 1rem 0;
+}

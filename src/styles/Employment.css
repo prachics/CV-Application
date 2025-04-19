@@ -1,0 +1,31 @@
+.employment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Reduced gap */
+  margin-bottom: 0.5rem; /* Reduced margin */
+}
+
+.employment input,
+.employment textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.employment button {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.employment .add-btn:hover {
+  background-color: lightgreen;
+}
+
+.employment .del-btn:hover {
+  background-color: rgb(251, 124, 124);
+}
