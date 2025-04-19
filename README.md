@@ -1,12 +1,33 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive CV builder application built with React. This application allows users to input their personal information, education, employment history, and skills, and preview the CV in real-time. Users can also download the CV as a PDF.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Personal Information**: Add your name, email, and phone number.
+- **Education**: Add, edit, and delete education details.
+- **Employment**: Add, edit, and delete work experience.
+- **Skills**: Categorize skills (e.g., Technical, Cloud, Soft Skills) and display them as grouped bullet points.
+- **Real-Time Preview**: See your CV update in real-time as you input data.
+- **Download as PDF**: Export your CV as a professionally formatted PDF.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **Frontend**: React
+- **Styling**: CSS
+- **PDF Generation**: `html2canvas` and `jsPDF`
+- **Icons**: `react-icons`
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prachics/CV-Application.git
+   cd cv-application
+   ```
