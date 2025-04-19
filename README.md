@@ -24,6 +24,14 @@ A modern and interactive CV builder application built with React. This applicati
 
 ---
 
+## Deployment
+
+The application is live and can be accessed at:
+
+[CV Application Deployment Link](https://cv-application-c4ph517ud-ps8888s-projects-0be29afc.vercel.app/)
+
+---
+
 ## Installation
 
 1. Clone the repository:
